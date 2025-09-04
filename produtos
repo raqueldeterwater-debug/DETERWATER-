@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deterwater — Soluções Ecológicas</title>
+  <meta name="description" content="Catálogo de produtos Deterwater sem preços. Selecione e peça cotação por email. Inclui área INURBECO (serviços técnicos de limpeza e sustentabilidade), Quem Somos e secção de notícias." />
+  <style>
+    :root{
+      --bg:#f9f9f4;
+      --card:#fffef9;
+      --muted:#4b5563;
+      --text:#1f2937;
+      --brand:#6b8e23;
+      --brand-2:#b2a574;
+      --ring: rgba(107,142,35,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,"Noto Sans",sans-serif}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;backdrop-filter:saturate(180%) blur(6px);background:rgba(255,255,255,.9);border-bottom:1px solid rgba(148,163,184,.2);z-index:20}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .logo{display:flex;align-items:center;gap:10px;font-weight:700}
+    .logo img{height:40px}
+    .navlinks{display:flex;gap:14px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(107,142,35,.35);color:var(--text);background:#fff;padding:10px 14px;border-radius:12px;font-weight:600}
+    .btn:hover{box-shadow:0 0 0 3px var(--ring)}
+    .hero{padding:56px 0 28px;border-bottom:1px solid rgba(148,163,184,.1)}
+    .hero h1{font-size:clamp(28px,4vw,46px);line-height:1.1;margin:0 0 12px;color:var(--brand)}
+    .hero p{color:var(--muted);max-width:800px}
+    .grid{display:grid;gap:20px}
+    @media(min-width:900px){.grid.cols-3{grid-template-columns:repeat(3,1fr)}.grid.cols-2{grid-template-columns:repeat(2,1fr)}}
+    .card{background:var(--card);border:1px solid rgba(148,163,184,.2);border-radius:16px;padding:18px}
+    .card h3{margin:0 0 8px;font-size:20px;color:var(--brand)}
+    .badge{display:inline-block;padding:2px 8px;border-radius:999px;background:rgba(107,142,35,.15);color:var(--brand);border:1px solid rgba(107,142,35,.35);font-size:12px;margin-bottom:8px}
+    .muted{color:var(--muted)}
+    .product{display:flex;flex-direction:column;gap:10px}
+    .product .thumb img{width:100%;border-radius:8px}
+    .section{padding:36px 0;border-bottom:1px solid rgba(148,163,184,.1)}
+    footer{padding:28px 0;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav aria-label="Navegação principal">
+        <div class="logo">
+          <img src="DETERWATER LOGO-02.png" alt="Deterwater logo" />
+        </div>
+        <div class="navlinks" role="menubar">
+          <a role="menuitem" href="#quemsomos">Quem Somos</a>
+          <a role="menuitem" href="#produtos">Produtos</a>
+          <a role="menuitem" href="#aplicacoes">Áreas de Aplicação</a>
+          <a role="menuitem" href="#inurbeco">INURBECO</a>
+          <a role="menuitem" href="#noticias">Notícias</a>
+          <a role="menuitem" href="#contactos">Contactos</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>Soluções Ecológicas </h1>
+      <p> Escolha os produtos e receba a proposta por email. A empresa <strong>INURBECO</strong> assegura serviços técnicos de limpeza e sustentabilidade.</p>
+    </section>
+
+    <section id="quemsomos" class="section container">
+      <h2>Quem Somos?</h2>
+      <p class="muted">A <strong>Deterwater</strong> é uma empresa dedicada ao desenvolvimento e comercialização de soluções ecológicas inovadoras, com foco na sustentabilidade, no respeito pelo meio ambiente e pelas pessoas. O nosso compromisso é fornecer produtos de alta qualidade que atendam às exigências ambientais, sem comprometer a eficácia e a segurança.</p>
+    </section>
+
+    <section id="produtos" class="section container">
+      <h2>Produtos em destaque</h2>
+      <div class="grid cols-3">
+        <article class="card product">
+          <span class="badge">Multiusos</span>
+          <div class=\"thumb\"><img src=\"1.png\" alt=\"Proclean" style=\"object-fit:contain;height:200px\"/></div>
+          <h3>PROCLEAN</h3>
+          <p class="muted">Desinfetante e desengordurante multiusos. Bactericida, biodegradável, seguro, certificado pela DGAV. <strong>Quantidade mínima: 12 x 1 L</strong>.</p>
+        </article>
+        <article class="card product">
+          <span class="badge">Desengordurante</span>
+          <div class="thumb"><img src="Actisol HM.png" alt="Actisol HM"/></div>
+          <h3>ACTISOL HM</h3>
+          <p class="muted">Desengordurante concentrado com extratos de pinho, eficaz em ruas, contentores e superfícies persistentes. <strong>Quantidade mínima: 20 L</strong>.</p>
+        </article>
+        <article class="card product">
+          <span class="badge">Proteção</span>
+          <div class="thumb"><img src="PROTESEK.png" alt="Protesek"/></div>
+          <h3>PROTESEK</h3>
+          <p class="muted">Protetor hidro-repelente para superfícies porosas. Repelente de urina, líquidos e óleos. <strong>Quantidade mínima: 25 L</strong>.</p>
+        </article>
+        <article class="card product">
+          <span class="badge">Desengordurante, Higienizante & Eliminador de Odores</span>
+          <div class="thumb"><img src="Odorex Reforçado.png" alt="Odorex Reforçado"/></div>
+          <h3>ODOREX REFORÇADO</h3>
+          <p class="muted">Desengordurante, higienizante e eliminador de odores altamente concentrado. Aroma cítrico, biodegradável. <strong>Quantidade mínima: 20 L</strong>.</p>
+        </article>
+        <article class="card product">
+          <span class="badge">Higienizante e neutralizador de odores</span>
+          <div class="thumb"><img src="Fresh Air Woody.png" alt="Fresh Air Woody"/></div>
+          <h3>FRESH AIR WOODY</h3>
+          <p class="muted">Ambientador e higienizante concentrado de extratos de pinho. Neutraliza odores e desengordura. <strong>Quantidade mínima: 20 L</strong>.</p>
+        </article>
+        <article class="card product">
+          <span class="badge">Sanitário</span>
+          <div class="thumb"><img src="FRESH BOWL.png" alt="Fresh Bowl"/></div>
+          <h3>FRESH BOWL</h3>
+          <p class="muted">Elimina maus odores na sanita e proporciona perfume fresco. <strong>Quantidade mínima: 6 x 750 ml</strong>.</p>
+        </article>
+        <article class="card product">
+          <span class="badge">Neutralização de odores em contentores</span>
+          <div class="thumb"><img src="Sek O280.png" alt="SEK O280"/></div>
+          <h3>SEK O280</h3>
+          <p class="muted">Difusão estática que neutraliza odores em redor de contentores de resíduos. <strong>Caixa: 12 uni</strong>.</p>
+        </article>
+        <article class="card product">
+          <span class="badge">Neutralização de odores em esgotos</span>
+          <div class="thumb"><img src="Sek A280.png" alt="SEK A280"/></div>
+          <h3>SEK A280</h3>
+          <p class="muted">Difusão estática que neutraliza odores dentro da rede de esgotos. <strong>Caixa: 12 uni</strong>.</p>
+        </article>
+        <article class="card product">
+          <span class="badge">Creme recuperador</span>
+          <div class="thumb"><img src="Creme a recurer.png" alt="Creme à Récurer"/></div>
+          <h3>CREME À RÉCURER</h3>
+          <p class="muted">Limpa e dá brilho a superfícies duras, mesmo frágeis, sem riscar. <strong>Quantidade mínima: 12 x 1 L</strong>.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="aplicacoes" class="section container">
+      <h2>Áreas de Aplicação</h2>
+      <div class="grid cols-2">
+        <article class="card">
+          <h3>Oficinas & Indústria</h3>
+          <p class="muted">Produtos para higienização, desengorduramento e manutenção de espaços industriais e oficinas (ex.: PROCLEAN, ACTISOL HM).</p>
+        </article>
+        <article class="card">
+          <h3>Limpeza Urbana</h3>
+          <p class="muted">Soluções para ruas, contentores e mobiliário urbano, com foco na neutralização de odores e desengorduramento (ex.: FRESH AIR WOODY, ODOREX REFORÇADO, ACTISOL HM).</p>
+        </article>
+        <article class="card">
+          <h3>Sanitários</h3>
+          <p class="muted">Produtos específicos para casas de banho e espaços públicos sanitários (ex.: FRESH BOWL, CREME À RÉCURER).</p>
+        </article>
+        <article class="card">
+          <h3>Gestão de Resíduos & Esgotos</h3>
+          <p class="muted">Tecnologias para neutralização de odores em contentores de lixo e redes de esgotos (ex.: SEK O280 e SEK A280).</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="inurbeco" class="section container">
+      <div class="inurbeco-head">
+        <h2 style="margin:0">INURBECO — Serviços Técnicos de Limpeza & Sustentabilidade</h2>
+        <img src="INURBECO Logo.png" alt="Logotipo INURBECO" />
+      </div>
+      <p class="muted">É com enorme entusiasmo que apresentamos a <strong>INURBECO</strong>, que nasce com um propósito claro: fornecer soluções técnicas de limpeza com um compromisso firme com a sustentabilidade ambiental e a inovação urbana.</p>
+      <h3>O que fazemos?</h3>
+      <ul class="muted">
+        <li>✔ Limpezas técnicas e industriais</li>
+        <li>✔ Intervenções sustentáveis em espaços urbanos</li>
+        <li>✔ Consultoria e soluções amigas do ambiente</li>
+      </ul>
+      <h3>Porquê escolher a INURBECO?</h3>
+      <ul class="muted">
+        <li>✅ Equipa especializada</li>
+        <li>✅ Compromisso com a qualidade</li>
+        <li>✅ Responsabilidade ambiental</li>
+        <li>✅ Soluções à medida do seu projeto</li>
+      </ul>
+
+      <div class="gallery" aria-label="Antes e depois de intervenção de limpeza">
+        <figure>
+          <img src="IMG-20250428-WA0001.jpg" alt="Parede com graffiti e sujidade antes da limpeza" />
+          <figcaption>Antes</figcaption>
+        </figure>
+        <figure>
+          <img src="IMG-20250428-WA0002.jpg" alt="Parede limpa após intervenção" />
+          <figcaption>Depois</figcaption>
+        </figure>
+      </div>
+
+      <p style="margin-top:12px">Email: <a href="mailto:inurbeco@gmail.com">inurbeco@gmail.com</a></p>
+    </section>
+
+    <section id="noticias" class="section container">
+      <h2>Notícias & Atualizações</h2>
+      <div class="grid cols-3">
+        <article class="card">
+          <h3>7º Encontro de Limpeza Urbana</h3>
+          <p class="muted">Estivemos presentes no 7º Encontro de Limpeza Urbana na Alfândega do Porto em parceria com a <strong>Kimu</strong>, empresa que representamos em Portugal.</p>
+          <div class="thumb"><img src="IMG-20250707-WA0005.jpg" alt="Stand da Kimu no 7º Encontro de Limpeza Urbana" style="width:100%;border-radius:8px"/></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contactos" class="section container">
+      <h2>Contactos</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:geral@deterwater.pt">geral@deterwater.pt</a></p>
+        <p>Telefone: <a href="tel:+351911827222">911 827 222</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span class="muted">© <span id="ano"></span> Deterwater. Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
